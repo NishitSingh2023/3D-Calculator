@@ -60,6 +60,23 @@ btn6=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),comm
 multiply=Button(cal , padx=19,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick("*"),text='*').grid(row=2,column=3)
 
 
+
+#=====================================================================================================
+
+
+btn1=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(1),text='1').grid(row=3,column=0)
+
+
+btn2=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(2),text='2').grid(row=3,column=1)
+
+
+btn3=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(3),text='3').grid(row=3,column=2)
+
+
+sub=Button(cal , padx=19 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick("-"),text='-').grid(row=3,column=3)
+
+
+
 #=====================================================================================================
 
 
