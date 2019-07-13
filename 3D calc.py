@@ -45,6 +45,21 @@ divide=Button(cal , padx=19 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),co
 
 
 
+
+#=====================================================================================================
+
+btn4=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(4),text='4').grid(row=2,column=0)
+
+
+btn5=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(5),text='5').grid(row=2,column=1)
+
+
+btn6=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(6),text='6').grid(row=2,column=2)
+
+
+multiply=Button(cal , padx=19,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick("*"),text='*').grid(row=2,column=3)
+
+
 #=====================================================================================================
 
 
