@@ -23,7 +23,7 @@ def btnequalsto():
 
 
 cal = Tk()
-cal.title("CALCULATOR v0.1.3")
+cal.title("CALCULATOR")
 operator=""
 text_input=StringVar()
  
