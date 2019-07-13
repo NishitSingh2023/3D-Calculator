@@ -32,6 +32,19 @@ txtdisplay= Entry(cal , font=('arial', 20, 'bold'),textvariable=text_input, bd=4
 
 
 
+btn7=Button(cal , padx=16,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(7),text='7').grid(row=1,column=0)
+
+
+btn8=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(8),text='8').grid(row=1,column=1)
+
+
+btn9=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(9),text='9').grid(row=1,column=2)
+
+
+divide=Button(cal , padx=19 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick("/"),text='/').grid(row=1,column=3)
+
+
+
 #=====================================================================================================
 
 
