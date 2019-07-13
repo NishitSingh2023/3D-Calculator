@@ -80,4 +80,19 @@ sub=Button(cal , padx=19 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),comma
 #=====================================================================================================
 
 
+btn0=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick(0),text='0').grid(row=4,column=0)
+
+
+clear=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),text='C',command=btnClearDisplay).grid(row=4,column=1)
+
+
+eqaul=Button(cal , padx=16,pady=9 ,bd=8, fg="black",font=('arial',20,'bold'),command=btnequalsto,text='=').grid(row=4,column=2)
+
+
+add=Button(cal , padx=16 ,pady=9,bd=8, fg="black",font=('arial',20,'bold'),command=lambda:btnClick("+"),text='+').grid(row=4,column=3)
+
+
+#=====================================================================================================
+
+
 cal.mainloop()
